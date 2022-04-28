@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: #d3d3d3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 50vh;
+    height: 50vh;
+
+    background-color: #000028;
+
+    border-radius: 100%;
+    box-shadow: 1px 3px 4.3px #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div{
+    width: 45vh;
+    height: 45vh;
+    font-size: 3rem;
+
+    color: #ffffffd9;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2.3px dashed #ff8000;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
